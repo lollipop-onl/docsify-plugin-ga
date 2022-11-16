@@ -1,7 +1,7 @@
 {
   "name": "docsify-plugin-ga",
   "version": "1.0.0",
-  "main": "./lib/plugin.js",
+  "main": "./lib/main.js",
   "scripts": {
     "format": "prettier --write \"**/*.{js,json,yml}\"",
     "build": "webpack"

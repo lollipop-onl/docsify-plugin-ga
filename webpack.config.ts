@@ -5,7 +5,7 @@ import { ESBuildMinifyPlugin } from 'esbuild-loader'
 
 const config: Configuration = {
   mode: 'production',
-  entry: './src/plugin.js',
+  entry: './src/main.js',
   output: {
     path: path.join(__dirname, './lib'),
     clean: true,

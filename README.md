@@ -20,7 +20,7 @@ Install Google Analytics 4 and Universal Analytics.
 <script src="//cdn.jsdelivr.net/gh/lollipop-onl/docsify-plugin-ga"></script>
 ```
 
-Using multiple tracking ids.
+GA4 and UA can be used together.
 
 ```html
 <script>
