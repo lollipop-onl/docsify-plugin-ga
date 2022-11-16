@@ -2,6 +2,7 @@
   "name": "docsify-plugin-ga",
   "version": "1.0.0",
   "main": "./lib/main.js",
+  "files": ["lib"],
   "scripts": {
     "format": "prettier --write \"**/*.{js,json,yml}\"",
     "build": "webpack"
