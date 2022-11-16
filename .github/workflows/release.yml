@@ -1,5 +1,6 @@
 name: Release to GitHub Packages
 on:
+  workflow_dispatch:
   release:
     types:
       - created
@@ -8,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: volta-cli/actions@v3
+      - uses: volta-cli/action@v3
       - name: install dependencies
         run: yarn install --frozen-lockfile
       - name: build
