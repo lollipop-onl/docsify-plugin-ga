@@ -1,7 +1,11 @@
 {
-  "name": "docsify-plugin-ga",
+  "name": "@lollipop-onl/docsify-plugin-ga",
   "version": "1.0.0",
   "main": "./lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lollipop-onl/docsify-plugin-ga.git"
+  },
   "files": ["lib"],
   "scripts": {
     "format": "prettier --write \"**/*.{js,json,yml}\"",
