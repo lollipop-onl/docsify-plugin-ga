@@ -4,7 +4,11 @@
 <h1 align="center">Docsify Plugins</h1>
 <h3 align="center">Google Analytics</h3>
 
+[![License](https://img.shields.io/github/license/lollipop-onl/docsify-plugin-ga?logo=open-source-initiative&logoColor=green)](https://github.com/lollipop-onl/docsify-plugin-ga/blob/main/LICENSE)
+
 Install Google Analytics 4 and Universal Analytics.
+
+## Usage
 
 ```html
 <script>
@@ -28,3 +32,7 @@ Using multiple tracking ids.
   };
 </script>
 ```
+
+## License
+
+MIT
