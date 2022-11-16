@@ -29,10 +29,7 @@ const install = (hook) => {
     return;
   }
 
-  console.log({ hook });
-  hook.beforeEach(console.log);
-
-  hook.beforeEach(collect);
+  hook.doneEach(collect);
 };
 
 $docsify.plugins = [].concat(install, $docsify.plugins);

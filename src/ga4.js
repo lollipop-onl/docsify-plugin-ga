@@ -11,7 +11,9 @@ const init = (id) => {
   };
 
   window.gtag('js', new Date());
-  window.gtag('config', id);
+  window.gtag('config', id, {
+    send_page_view: false,
+  });
 };
 
 export const collectGA4 = (id) => {
@@ -19,10 +21,9 @@ export const collectGA4 = (id) => {
     init(id);
   }
 
-  const { origin, hash } = window.location;
-
-  window.gtag('config', id, {
-    page_path: hash,
-    location_path: origin + hash,
-  });
+  window.gtag('event', 'page_view', {
+    page_title: document.title,
+    page_location: window.location.href,
+    send_to: id,
+  })
 };
