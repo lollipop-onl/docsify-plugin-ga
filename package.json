@@ -24,5 +24,9 @@
   "volta": {
     "node": "18.12.1",
     "yarn": "1.22.19"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }
