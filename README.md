@@ -4,7 +4,8 @@
 <h1 align="center">Docsify Plugins</h1>
 <h3 align="center">Google Analytics</h3>
 
-[![License](https://img.shields.io/github/license/lollipop-onl/docsify-plugin-ga?logo=open-source-initiative&logoColor=green)](https://github.com/lollipop-onl/docsify-plugin-ga/blob/main/LICENSE)
+[![npm version](https://badge.fury.io/js/docsify-plugin-ga.svg)](https://badge.fury.io/js/docsify-plugin-ga)
+[![License](https://img.shields.io/npm/l/docsify-plugin-ga)](https://github.com/lollipop-onl/docsify-plugin-ga/blob/main/LICENSE)
 
 Install Google Analytics 4 and Universal Analytics.
 
