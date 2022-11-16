@@ -6,11 +6,13 @@ const init = (id) => {
 
   window.dataLayer = window.dataLayer || [];
 
-  window.gtag = function () { dataLayer.push(arguments) };
+  window.gtag = function () {
+    dataLayer.push(arguments);
+  };
 
   window.gtag('js', new Date());
   window.gtag('config', id);
-}
+};
 
 export const collectGA4 = (id) => {
   if (!window.gtag) {
@@ -22,5 +24,5 @@ export const collectGA4 = (id) => {
   window.gtag('config', id, {
     page_path: hash,
     location_path: origin + hash,
-  })    
-}
+  });
+};

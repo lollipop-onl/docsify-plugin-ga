@@ -1,15 +1,16 @@
 {
   "name": "docsify-plugin-ga",
   "version": "1.0.0",
+  "repository": "https://github.com/lollipop-onl/docsify-plugin-ga.git",
+  "license": "MIT",
+  "author": "simochee <lollipop@simochee.net>",
   "main": "./lib/main.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lollipop-onl/docsify-plugin-ga.git"
-  },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "format": "prettier --write \"**/*.{js,json,yml}\"",
-    "build": "webpack"
+    "build": "webpack",
+    "format": "prettier --write \"**/*.{js,json,yml}\""
   },
   "devDependencies": {
     "esbuild-loader": "^2.20.0",
