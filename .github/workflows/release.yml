@@ -12,6 +12,9 @@ jobs:
       - name: can-npm-publish
         run: npx can-npm-publish --verbose
       - uses: volta-cli/action@v3
+        with:
+          registry-url: https://registry.npmjs.org
+          always-auth: true
       - name: install dependencies
         run: yarn install --frozen-lockfile
       - name: build
