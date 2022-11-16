@@ -17,7 +17,7 @@ Install Google Analytics 4 and Universal Analytics.
   };
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-<script src="//cdn.jsdelivr.net/gh/lollipop-onl/docsify-plugin-ga"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-plugin-ga"></script>
 ```
 
 GA4 and UA can be used together.
