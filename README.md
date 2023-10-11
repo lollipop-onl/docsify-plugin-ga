@@ -10,6 +10,22 @@
 
 Install Google Analytics 4 and Universal Analytics.
 
+## This plugin is no longer necessary 🪽
+
+> **Note**
+> `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it.  
+> https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4
+
+```diff
+window.$docsify = {
+-   ga: 'G-XXXXX',
++   gtag: 'G-XXXXX',
+};
+
+- <script src="//cdn.jsdelivr.net/npm/docsify-plugin-ga"></script>
++ <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gtag.min.js"></script>
+```
+
 ## Usage
 
 ```html
